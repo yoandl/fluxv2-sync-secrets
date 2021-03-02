@@ -1,8 +1,11 @@
 apiVersion: v1
 data:
   test: apps-cm
+  url_api_maher: test.prixtel.com
 kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: test
   namespace: apps
+  annotations: 
+    kubed.appscode.com/sync: app=kubed

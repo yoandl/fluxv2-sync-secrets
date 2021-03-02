@@ -4,3 +4,4 @@ metadata:
   namespace: flux-system
 resources:
   - ./secrets/
+  - ./configmaps/
