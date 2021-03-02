@@ -6,6 +6,6 @@ kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: test
-  namespace: apps
+  namespace: flux-resources
   annotations: 
     kubed.appscode.com/sync: app=kubed
