@@ -10,7 +10,11 @@ Tools used :
 FluxV2 documentation : 
 https://toolkit.fluxcd.io/get-started/
 
-Article on medium : 
+
+Secrets are encrypted with kubeseal, synced on this repo and then, unencrypted with sealedSecrets.
+Then Kubed can sync them with all your namespaces.
+
+This example contains a secret synced with kubed labelled namespaces, a secret without kubed sync and the same thing for configMaps.
 
 
 Tree of this repo : 
