@@ -4,4 +4,4 @@ metadata:
   namespace: flux-resources
 resources:
   - cm.yaml
-  - apps-cm.yaml
+
